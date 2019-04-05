@@ -1,0 +1,52 @@
+@import "navigate.css";
+.wrapper {
+    background-color: #ffffff
+}
+
+.header {
+    width: 900px;
+    margin: 0 auto 100px ;
+    padding-top: 75px;
+}
+.menu-list {
+    color: #626262;
+    font-family: 'Playfair Display' , serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+}
+.menu-item {
+    display: inline-block;
+    margin: 60px;
+    width: 90px;
+}
+.menu-item:last-child {
+    margin-right: 0;
+}
+.menu-item:hover {
+    color: #03a0f4;
+}
+.main {
+    width: 900px;
+}
+.article {
+    width: 400px;
+    display: inline-block;
+    margin-right:200px;
+    margin-left: 100px;
+}
+.article:nth-child(2n+2) {
+    margin-right: 0px;   
+}
+.conteiner-btn {
+    margin: auto;
+    text-align: center;
+}
+.button {
+    height: 60px;
+    width: 165px;
+}
+
+
+
