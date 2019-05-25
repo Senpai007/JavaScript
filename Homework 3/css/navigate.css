@@ -1,4 +1,4 @@
-@import "navigate.css";
+
 .wrapper {
     background-color: #ffffff
 }
@@ -18,7 +18,7 @@
 }
 .menu-item {
     display: inline-block;
-    margin: 60px;
+    margin: 75px;
     width: 90px;
 }
 .menu-item:last-child {
@@ -29,11 +29,12 @@
 }
 .main {
     width: 900px;
+    margin: auto;
 }
 .article {
     width: 400px;
     display: inline-block;
-    margin-right:200px;
+    margin-right:170px;
     margin-left: 100px;
 }
 .article:nth-child(2n+2) {
@@ -47,6 +48,22 @@
     height: 60px;
     width: 165px;
 }
-
-
-
+.img {
+    width: 400px;
+    margin-bottom: 30px;
+}
+.card_text {
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+    margin-bottom: 40px;
+}
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+}
+.mini_text {
+    font-Weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+}
